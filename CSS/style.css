@@ -1,0 +1,39 @@
+.header-principal .container{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-principal-titulo{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.header-principal-nav{
+    font-size: 20px;
+    padding: 40px 10px;
+}
+
+.header-principal-nav-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.rodapiePrincipal{
+    font-size: 30px;
+    padding: auto;
+}
+
+.rodapiePrincipal-redes-list{
+    display: flex;
+    justify-content: space-around;
+
+}
+
