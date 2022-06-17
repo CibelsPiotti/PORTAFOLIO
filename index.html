@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+<head>
         <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <title>Cibels Antonella Piotti Pereyra | Portafolio</title>
 	    <link rel="stylesheet" href="css/reset.css">
 	    <link rel="stylesheet" href="css/style.css">
-    </head>
+        <link rel="stylesheet" href="css/aboutme.css">        
+        <link rel="stylesheet" href="css/presentacion.css">
+
+</head>
+<body class="app">
     <header class="header-principal">
         <div class="container">
             <h1 class="header-principal-titulo">
@@ -24,16 +28,141 @@
         </div>
 
     </header>
-    <main class="seccion-presentacion">
-        <div class="container">
-            <!-- <h1 class="seccion-presentacion-titulo">
-                ¡Thanks for stopping by! My name is Cibels and I'm a developer.
-            </h1> -->
-            <h2 class="seccion-presentacion-subtitulo">
-                Tengo 21 años, naci y vivi siempre en Argentina, me estoy formando como desarrolladora web con un marcado interes en el desarrollo Front-end.
-                
-            </h2>
-
+    <main class="seccion-contenido">
+        <div class="contenido">
+            <div class="presentacion">
+                <div class="presentacion-imagen">
+                    <img class="presentacion-imagen" src="IMAGENES/fotoperfil.jpg" alt="imagen de Cibels" width="50%" height="50%"> 
+                </div>
+                <div class="presentacion-escrito">
+                    <h1 class="presentacion-titulo">
+                        Hello, my name is Cibels and I am a Front-End developer.
+                    </h1>
+                    <h2 class="presentacion-subtitulo">
+                        I am 21 years old, I am from Argentina, I am studying programming. I work in the mornings in a jewelry store, I live with 2 cats and I play soccer in my spare time.
+                    </h2>
+                    <nav class="presentacion-nav">
+                        <a class="presentacion-nav-link" href="#"><img src="IMAGENES/github.svg" alt="Logo de GitHub">GitHub</a>
+                        <a class="presentacion-nav-link" href="#"><img src="/IMAGENES/linkedin.svg" alt="Logo de linkedin">LinkedIn</a>
+                        <a class="presentacion-nav-link" href="#"><img src="IMAGENES/instagram.svg" alt="Logo de Instagram">Instagram</a>
+                        <a class="presentacion-nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                          </svg>Curriculum</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="aboutme">
+                <h1 class="aboutme-titulo">
+                    About me
+                </h1>
+                Dirección: Ituzaingó 1156 - Nueva Córdoba - Córdoba 
+                Contacto: 0351-155160505 - cibelspiotti@gmail.com
+                Edad: 21 años
+                <img src="firma" alt="signature">
+            </div>
+            <div class="hobbies">
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Futbol</h3>
+                </div>
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Yoga</h3>
+                </div>
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Programacion</h3>
+                </div>
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Cocinar</h3>
+                </div>
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Trekking</h3>
+                </div>
+                <div class="hobbies-box">
+                    <h3 class="hobbies-box-item">Gatos</h3>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skills-box">
+                    <h3 class="skill-box-item">HTML 5</h3>
+                </div>   
+                <div class="skills-box">
+                    <h3 class="skill-box-item">CSS</h3>
+                </div>             
+                <div class="skills-box">
+                    <h3 class="skill-box-item">Comunicacion Social</h3>
+                </div>
+                <div class="skills-box">
+                    <h3 class="skill-box-item">Aprendizaje</h3>
+                </div>
+                <div class="skills-box">
+                    <h3 class="skill-box-item">Team work</h3>
+                </div>
+                <div class="skills-box">
+                    <h3 class="skill-box-item">JavaScript</h3>
+                </div>
+            </div>
+            <div class="formacion">
+                <h1 class="formacion-titulo">
+                    Formacion Académica
+                </h1>
+               <div class="formacion-box">
+                    <div class="formacion-box-item">
+                        <img class="formacion-box-item-imagen" src="./img/utn.jpeg"></img>
+                        <div class="formacion-box-item-info">
+                            <h5 class="formacion-box-item-info-titulo">Universidad Tecnologica Nacional</h5>
+                            <time class="formacion-box-item-info-fecha" datetime="2019-03-05">inicio el 05/03/2019</time>                                                 
+                        </div>    
+                    </div>
+                    <div class="formacion-box-item">
+                        <img class="formacion-box-item-imagen" src="./img/alura.jpeg"></img>
+                        <div class="formacion-box-item-info">
+                            <h5 class="formacion-box-item-info-titulo">Alura Latam</h5>
+                            <time class="formacion-box-item-info-fecha" datetime="2022-03-05">inicio el 05/03/2022</time>                                                 
+                        </div>    
+                    </div>
+                    <div class="formacion-box-item">
+                        <img class="formacion-box-item-imagen" src="./img/egg.jpeg"></img>
+                        <div class="formacion-box-item-info">
+                            <h5 class="formacion-box-item-info-titulo">Egg Education</h5>
+                            <time class="formacion-box-item-info-fecha" datetime="2022-03-05">inicio el 05/03/2022</time>                                                 
+                        </div>    
+                    </div>
+               </div>                
+            </div>
+            <div class="proyectos">
+                <h1 class="preyectos-titulo">Experiencia profesional</h1>
+                <div class="proyectos-box">
+                    <h2 class="proyectos-box-titulo">Roma Depilacion</h2>
+                    <p class="proyectos-box-descripcion">Front-End realizado para la Estética Roma Depilación en conjunto con el diseñador grafico de la marca.</p>}
+                    <img class="proyecto-box-imagen" src="/IMAGENES/HH">
+                </div>
+                <div class="proyectos-box">
+                    <h2 class="proyectos-box-titulo">Roma Depilacion</h2>
+                    <p class="proyectos-box-descripcion">Front-End realizado para la Estética Roma Depilación en conjunto con el diseñador grafico de la marca.</p>}
+                    <img class="proyecto-box-imagen" src="/IMAGENES/GG">
+                </div>
+            </div>
+            <div class="contacto">
+                <img class="contacto-imagen" src="/IMAGENES/#">
+                <h1 class="contacto-titulo">Contacto</h1>
+                <h2 class="contacto-subtitulo"> ¿Querés ponerte en contacto? Completa el siguiente formulario</h2>
+                <form class="contacto-formulario">
+                    <label for="nombreyapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreyapellido" class="contacto-formulario-nom" required>
+    
+                    <label for="localidad">E-mail</label>
+                    <input type="email" id="localidad" class="contacto-formulario-mail" placeholder="email@dominio.com" required>
+    
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" class="contacto-formulario-tel" required placeholder="XXX-XXXXXX">
+    
+                    <label for="Asunto">Asunto</label>
+                    <input type="email" id="Asunto" class="contacto-formulario-asunto">
+    
+                    <label for="mensajearea">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensajearea"></textarea>
+                </form>
+            </div>
         </div>
 
     </main>
@@ -61,4 +190,5 @@
 		</section>
 
     </footer>
+</body>
 </html>

@@ -1,10 +1,28 @@
+
+.app {
+    background: #f1f1f1;
+    display: grid;
+    /* aca defino las areas del grid */
+    grid-template-areas: 
+    "encabezado"
+    "contenido"
+    "rodapie";
+    grid-template-columns: auto;
+    /* le pongo auto para que se ajuste al texto */
+    grid-template-rows: 90px auto auto;
+    /* 50px pal encabezado, toda la pantalla para el contenido y automatico para el rodapie */
+}
+/* aca trabajo el header */
+
 .header-principal .container{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-area: encabezado;
+    padding: 0 2rem;
+    /* margin-bottom: 10px; */
 }
 
 .header-principal-titulo{
@@ -18,17 +36,38 @@
     padding: 40px 10px;
 }
 
+.header-principal-nav-link:hover, .encabezado-nav-link:active{
+    border-bottom: 2px solid #0073e6;
+}
+
 .header-principal-nav-link{
     padding-left: 10px;
     text-decoration: none;
     color: black;
 }
-
-
-
+/* aca trabajo el contenido main */
+.seccion-contenido{
+    grid-area: contenido;
+}
+.seccion-contenido .contenido{
+    display: grid;
+    grid-template-areas:
+    "presentacion"
+    "aboutme"
+    "hobbies"
+    "skills"
+    "formacion"
+    "proyectos"
+    "contacto" ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background: #0073e6;
+}
+/* aca trabajo el footer */
 .rodapiePrincipal{
     font-size: 30px;
     padding: auto;
+    grid-area: rodapie;
 }
 
 .rodapiePrincipal-redes-list{
