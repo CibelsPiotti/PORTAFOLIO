@@ -31,6 +31,7 @@
 }
 .presentacion-subtitulo{
     grid-area: subtitulo;
+    line-height: 1.25;
     font-size: 20px;
     font-weight: 200;
     padding: 0 10px;

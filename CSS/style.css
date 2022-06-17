@@ -61,7 +61,8 @@
     "contacto" ;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    background: #0073e6;
+    background: #ffffff;
+    row-gap: 10px;
 }
 /* aca trabajo el footer */
 .rodapiePrincipal{
