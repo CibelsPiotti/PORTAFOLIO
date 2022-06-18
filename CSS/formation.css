@@ -2,7 +2,7 @@
 
 .formacion{
     grid-area: formacion;
-    background-color: aqua;
+    background-color: #d1cece;
     display: grid;
     grid-template-areas: 
     "titulo"
@@ -24,6 +24,7 @@
     grid-area: boxes;
     display: flex;
     justify-content:space-around;
+    align-items: baseline;
     padding: 16px;
     gap: 8px;
     
@@ -39,4 +40,8 @@
     font-weight: bold;
     color: black;
     text-align: center;
+}
+.formacion-box-item-info-fecha{
+    font-size: 15px;
+    color: rgb(0,0,0,0.5);
 }
