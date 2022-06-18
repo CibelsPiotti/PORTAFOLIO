@@ -67,7 +67,7 @@
 /* aca trabajo el footer */
 .rodapiePrincipal{
     font-size: 30px;
-    padding: auto;
+    padding: 10px;
     grid-area: rodapie;
 }
 
@@ -76,4 +76,5 @@
     justify-content: space-around;
 
 }
+
 

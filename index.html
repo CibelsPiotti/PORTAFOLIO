@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/hobbies-skills.css">
         <link rel="stylesheet" href="css/formation.css">
         <link rel="stylesheet" href="css/proyectos.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        
+
         
         
 
@@ -122,7 +125,7 @@ My dream is to be able to be completely independent and lead a life as a dev tha
             </div>
             <div class="formacion">
                 <h1 class="formacion-titulo">
-                    FORMACIÓN ACADÉMICA
+                    ACADEMIC TRAINING
                 </h1>
                <div class="formacion-box">
                     <div class="formacion-box-item">
@@ -149,7 +152,8 @@ My dream is to be able to be completely independent and lead a life as a dev tha
                </div>                
             </div>
             <div class="proyectos">
-                <h1 class="proyectos-titulo">EXPERIENCIA PROFESIONAL</h1>
+
+                <h1 class="proyectos-titulo">WORK EXPERIENCE</h1>
                 <div class="proyecto-boxes">
                 <div class="proyectos-box">
                     <div class="proyecto-box-imagen">
@@ -178,28 +182,33 @@ My dream is to be able to be completely independent and lead a life as a dev tha
                     </div>
                 </div>
             </div>
-            <div class="contacto">
-                <img class="contacto-imagen" src="/IMAGENES/#">
-                <h1 class="contacto-titulo">Contacto</h1>
-                <h2 class="contacto-subtitulo"> ¿Querés ponerte en contacto? Completa el siguiente formulario</h2>
-                <form class="contacto-formulario">
-                    <label for="nombreyapellido">Nombre y Apellido</label>
-                    <input type="text" id="nombreyapellido" class="contacto-formulario-nom" required>
-    
-                    <label for="localidad">E-mail</label>
-                    <input type="email" id="localidad" class="contacto-formulario-mail" placeholder="email@dominio.com" required>
-    
-                    <label for="telefono">Telefono</label>
-                    <input type="tel" id="telefono" class="contacto-formulario-tel" required placeholder="XXX-XXXXXX">
-    
-                    <label for="Asunto">Asunto</label>
-                    <input type="email" id="Asunto" class="contacto-formulario-asunto">
-    
-                    <label for="mensajearea">Mensaje</label>
-                    <textarea cols="70" rows="10" id="mensajearea"></textarea>
-                </form>
             </div>
-        </div>
+            <div class="contacto">
+                <h1 class="contacto-titulo">CONTACT</h1>
+                <div class="contacto-boxes">
+                    <img class="contacto-imagen" src="/IMAGENES/contact.svg">
+                    <form class="contacto-formulario">
+                        <h2 class="contacto-subtitulo"> ¿Querés ponerte en contacto? Completa el siguiente formulario:</h2>
+
+                        <label for="nombreyapellido" class="contacto-labels">Nombre y Apellido</label>
+                        <input type="text" id="nombreyapellido" class="contacto-formulario-m" required>
+        
+                        <label for="localidad" class="contacto-labels">E-mail</label>
+                        <input type="email" id="localidad" class="contacto-formulario-m" placeholder="email@dominio.com" required>
+        
+                        <label for="telefono" class="contacto-labels">Telefono</label>
+                        <input type="tel" id="telefono" class="contacto-formulario-m" required placeholder="XXX-XXXXXX">
+        
+                        <label for="Asunto" class="contacto-labels">Asunto</label>
+                        <input type="email" id="Asunto" class="contacto-formulario-m">
+        
+                        <label for="mensajearea" class="contacto-labels">Mensaje</label>
+                        <textarea cols="70" rows="10" id="mensajearea" class="contacto-formulario-m"></textarea>
+                        <input class="proyecto-box-texto-botones-boton" type="button" value="Enviar">
+                    </form>
+                </div>
+            
+            </div>
 
     </main>
     <footer class="rodapiePrincipal">
@@ -207,19 +216,13 @@ My dream is to be able to be completely independent and lead a life as a dev tha
 			<div class="container">
 				<ul class="rodapiePrincipal-redes-list">
 					<li>
-						<a class="rodapiePrincipal-redes-list-link redes-list-link-linkedin" href="#">
-							<img src="/IMAGENES/linkedin.svg" alt="Logo de linkedin">
-						</a>
+                        <a class="presentacion-nav-link" href="#"><img src="/IMAGENES/linkedin.svg" alt="Logo de linkedin">  LinkedIn</a>
 					</li>
 					<li>
-						<a class="rodapiePrincipal-redes-list-link redes-list-link-github" href="#">
-							<img src="IMAGENES/github.svg" alt="Logo de GitHub">
-						</a>
+                        <a class="presentacion-nav-link" href="#"><img src="IMAGENES/github.svg" alt="Logo de GitHub">  GitHub</a>
 					</li>
 					<li>
-						<a class="rodapiePrincipal-redes-list-link redes-list-link-Instagram" href="#">
-							<img src="IMAGENES/instagram.svg" alt="Logo de Instagram">
-						</a>
+                        <a class="presentacion-nav-link" href="#"><img src="IMAGENES/instagram.svg" alt="Logo de Instagram">  Instagram</a>
 					</li>
 				</ul>
 			</div>
