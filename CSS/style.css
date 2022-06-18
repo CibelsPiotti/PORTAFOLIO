@@ -62,7 +62,7 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     background: #ffffff;
-    row-gap: 10px;
+    row-gap: 50px;
 }
 /* aca trabajo el footer */
 .rodapiePrincipal{
