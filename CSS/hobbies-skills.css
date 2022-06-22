@@ -24,29 +24,29 @@
 }
 .hobbies-titulo, .skills-titulo{
     grid-area: titulo;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     background-color: rgb(0,0,0,0.5);
-    padding: 25px 0;
+    padding: 1.25rem 0;
 }
 .hobbies .hobbies-contenedor-boxes, .skills .skills-contenedor-boxes{
     grid-area: boxes;
     display: flex;
     justify-content:space-around;
-    padding: 16px;
-    gap: 8px;
+    padding: .8rem;
+    gap: .4rem;
     
     
 }
 
 .hobbies-box, .skills-box{
     width: 16%;
-    height: 130px;
-    border-right: 2px solid rgb(0,0,0,0.5);
-    padding: 30px;
+    height: 6.5rem;
+    border-right: 0.1rem solid rgb(0,0,0,0.5);
+    padding: 1.5rem;
     text-align: left;
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: black;
     text-align: center;

@@ -15,27 +15,27 @@
     "contacto";
     grid-template-columns: auto;
     grid-template-rows: auto;
-    /* padding: 10px;   */
+    /* padding: .5rem;   */
     /* background-color: aquamarine;  */
     /* height: auto; */
-    margin-right: 30px;
+    margin-right: 1.5rem;
     
 }
 .presentacion-titulo{
     grid-area: titulo;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: light;
-    padding: 0px 10px;
-    margin-bottom: 50px;
+    padding: 0px .5rem;
+    margin-bottom: 2.5rem;
     
 }
 .presentacion-subtitulo{
     grid-area: subtitulo;
     line-height: 1.25;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 200;
-    padding: 0 10px;
-    margin-bottom: 50px;
+    padding: 0 .5rem;
+    margin-bottom: 2.5rem;
 
 }
 .presentacion-nav{
@@ -43,20 +43,20 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 10px;
+    padding: 0 .5rem;
 }
 .presentacion-nav-link{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     color: #000000b6;
-    /* padding-top: 50px; */
+    /* padding-top: 2.5rem; */
     
 }
 .presentacion-imagen{
     width: 60%;
-    border-radius: 200px ;
+    border-radius: 10rem ;
     /* background-color: bisque; */
     text-align: center;
-    padding: 10px 0px;
+    padding: .5rem 0px;
    
 }

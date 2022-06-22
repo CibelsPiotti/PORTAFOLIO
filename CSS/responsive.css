@@ -1,0 +1,40 @@
+/* weno ahora hacemos que el diseño sea responsive
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .app{
+        grid-template-rows: auto auto auto;
+    }
+    .header-principal .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .header-principal-titulo{
+        font-size: 2rem;
+    }
+    .header-principal-nav{
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 0rem;
+        align-items: initial;
+        text-align: center;
+        width: 100%;
+    }
+    .header-principal-nav-link{
+       
+        background-color: #d1cece;
+        padding: 1rem 0;
+        border-bottom: 0.05rem solid black;
+        letter-spacing: 0.05rem;
+    }
+    .presentacion{
+        display: flex;
+        justify-content: center;
+        align-items: initial;
+        flex-direction: column;
+    }
+    
+}
